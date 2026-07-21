@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>6e</title>
+  </head>
+  <body>
+    <script>
+      const age = 4;0
+      const notHoliday = true;
+
+      // && has a higher priority than || so for
+      // this to work correctly, we need to add
+      // brackets () around the || check to make
+      // sure that it gets done first.
+      if ((age <= 6 || age >= 65) && notHoliday) {
+        console.log(' Discount');
+      } else {
+        console.log('No discount');
+      }
+    </script>
+  </body>
+</html>

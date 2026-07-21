@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <p>
+      <button
+    onclick="
+    console.log(`${calcu+='1'}`);";
+    >1</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+='2'}`);";
+    >2</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+='3'}`);";
+    >3</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+=' + '}`);";>+</button>
+    </p>
+
+    <p>
+    <button
+    onclick="
+    console.log(`${calcu+='4'}`);";
+    >4</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+='5'}`);";
+    >5</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+='6'}`);";
+    >6</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+=' - '}`);";>-</button>
+    </p>
+
+    <p>
+    <button
+    onclick="
+    console.log(`${calcu+='7'}`);";
+    >7</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+='8'}`);";
+    >8</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+='9'}`);";
+    >9</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+=' * '}`);";>*</button>
+    </p>
+
+    <p>
+    <button
+    onclick="
+    console.log(`${calcu+='0'}`);";
+    >0</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+='.'}`);";
+    >.</button>
+
+    <button
+    onclick="
+    calcu=eval(calcu);
+    console.log(`${calcu}`);";
+    >=</button>
+
+    <button
+    onclick="
+    console.log(`${calcu+=' / '}`);";>/</button>
+    </p>
+
+    <button
+    onclick="calcu=''; 
+    console.log('Cleared.');";
+    >clear</button>
+
+    <script>
+      let calcu='';
+    </script>
+  </body>
+
+</html>
